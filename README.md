@@ -1,29 +1,33 @@
-# Node.js Challenge
+# Node.JS Readme Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   ***
-  ## Description
-  An app that produces a readme when the command line questions have been answered
   ## Title
-  Node.js Challenge
+  Node.JS Readme Generator
+  ## Description
+  a Node.js app that generates a README after prompts are answered
+  #Table of Contents
+  *[Installation](##Installation)
+  *[Tests](##Tests)
+  *[Usage](##Usage)
+  *[Contributing](##Contributing)
   ## License
   MIT
   ## Installation
   NPM i
   ## Tests
   Jest
-  ## Using the repo:
-  Get permission to merge
+  ## Usage:
+  Be courteous
   ## Contributing:
-  Email me any other questions.
+  n/a
   ***
   #Questions
   ## Username
-  Jasonwesleysmith
+  https://github.com/Jasonwesleysmith
   ## Email
   Jasonwesleysmith82@gmail.com
   ***
   #### Please email me with any additional questions!!
 
-  
   ## license
     this project is licensed by MIT
