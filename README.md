@@ -1,32 +1,37 @@
-# Node.JS Readme Generator
+# Node.js Readme Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   ***
-  ## Title
-  Node.JS Readme Generator
+  
   ## Description
-  a Node.js app that generates a README after prompts are answered
-  #Table of Contents
-  *[Installation](##Installation)
-  *[Tests](##Tests)
-  *[Usage](##Usage)
-  *[Contributing](##Contributing)
+  After command line prompts are answered, a readme is generated
+
+  # Table of Contents
+  *[Installation](## Installation)
+  *[Tests](## Tests)
+  *[Usage](## Usage)
+  *[Contributing](## Contributing)
+
   ## License
   MIT
   ## Installation
   NPM i
   ## Tests
-  Jest
+  jest
   ## Usage:
-  Be courteous
+  be courteous
   ## Contributing:
-  n/a
+  get permission
+
   ***
-  #Questions
+
+  # Questions
   ## Username
   https://github.com/Jasonwesleysmith
   ## Email
   Jasonwesleysmith82@gmail.com
+
   ***
+
   #### Please email me with any additional questions!!
 
   ## license

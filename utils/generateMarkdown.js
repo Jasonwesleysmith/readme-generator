@@ -31,15 +31,16 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
   ***
-  ## Title
-  ${data.title}
+  
   ## Description
   ${data.description}
-  #Table of Contents
-  *[Installation](##Installation)
-  *[Tests](##Tests)
-  *[Usage](##Usage)
-  *[Contributing](##Contributing)
+
+  # Table of Contents
+  *[Installation](## Installation)
+  *[Tests](## Tests)
+  *[Usage](## Usage)
+  *[Contributing](## Contributing)
+
   ## License
   ${data.license}
   ## Installation
@@ -50,13 +51,17 @@ function generateMarkdown(data) {
   ${data.using}
   ## Contributing:
   ${data.contributing}
+
   ***
-  #Questions
+
+  # Questions
   ## Username
   https://github.com/${data.username}
   ## Email
   ${data.email}
+
   ***
+
   #### Please email me with any additional questions!!
 
   ${renderLicenseSection(data.license)}
