@@ -3,24 +3,24 @@
   ***
   
   ## Description
-  After command line prompts are answered, a readme is generated
+  After command prompts are aswered, a readme is generated
 
   # Table of Contents
-  *[Installation](## Installation)
-  *[Tests](## Tests)
-  *[Usage](## Usage)
-  *[Contributing](## Contributing)
+  *[Installation](#Installation)
+  *[Tests](#Tests)
+  *[Usage](#Usage)
+  *[Contributing](#Contributing)
 
   ## License
   MIT
   ## Installation
-  NPM i
+  npm i
   ## Tests
   jest
   ## Usage:
-  be courteous
+  be courteous to others
   ## Contributing:
-  get permission
+  get permission before merging
 
   ***
 
