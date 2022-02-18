@@ -2,7 +2,7 @@
 // and returns and empty string if there is no license
 function renderLicenseBadge(license) {
   if (license !== "none") {
-    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`  
   }
   return ""
 }
@@ -21,7 +21,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license !== "none") {
     return `## license
-    this project is licensed ${license}`
+    this project is licensed by ${license}`
   }
   return ""
 }
@@ -30,24 +30,31 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
+  ***
   ## Description
   ${data.description}
-  ## Username
-  ${data.username}
-  ## Email
-  ${data.email}
   ## Title
   ${data.title}
   ## License
   ${data.license}
-  ### Installation
+  ## Installation
   ${data.dependencies}
-  ### Tests
+  ## Tests
   ${data.runTests}
-  ### Using the repo:
+  ## Using the repo:
   ${data.using}
-  ### Contributing to the repo:
+  ## Contributing:
   ${data.contributing}
+  ***
+  #Questions
+  ## Username
+  ${data.username}
+  ## Email
+  ${data.email}
+  ***
+  #### Please email me with any additional questions!!
+
+  
   ${renderLicenseSection(data.license)}
 `;
 }
