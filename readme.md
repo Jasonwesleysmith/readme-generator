@@ -1,3 +1,6 @@
+# Walkthrough video link 
+https://drive.google.com/file/d/1ymVQYXr4rfOwu1ZSgheHJFK0j8RqIvvR/view
+
 # Node.js Readme Generator
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
   ***
